@@ -27,6 +27,7 @@ public class FXMLGuiDocumentController implements Initializable {
     private void handleButtonAction(ActionEvent event) {
         System.out.println("You clicked me!");
         label.setText("Puzzi");
+        label.setText("ciao");
     }
     
     @Override
